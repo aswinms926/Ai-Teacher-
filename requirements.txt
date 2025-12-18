@@ -1,0 +1,33 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+
+# Document Processing
+PyPDF2>=3.0.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Vector Store
+chromadb>=0.4.0  # Local vector database for RAG
+# pinecone-client>=2.2.0  # Uncomment if using Pinecone
+# faiss-cpu>=1.7.4  # Uncomment if using FAISS
+
+# Embeddings
+sentence-transformers>=2.2.0
+openai>=1.0.0  # For OpenAI embeddings
+google-generativeai>=0.3.0  # For Gemini embeddings
+
+# LLM Integration
+openai>=1.0.0
+# anthropic>=0.7.0  # Uncomment if using Claude
+
+# UI
+streamlit>=1.28.0
+# gradio>=4.0.0  # Uncomment if using Gradio
+
+# Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# TODO: Add specific versions after testing
+# TODO: Consider using poetry or pipenv for dependency management
